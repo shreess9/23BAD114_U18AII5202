@@ -1,4 +1,4 @@
-# Roll No: 23BAD114
+# Roll No: 23BAD308
 #Multivariate Analysis
 
 library(ggplot2)
@@ -6,7 +6,7 @@ library(GGally)
 library(dplyr)
 
 
-retail_data <- read.csv("C:/Users/praniga s/Downloads/6.retail_business.csv")
+retail_data <- read.csv("C:/Users/Downloads/6.retail_business.csv")
 retail_data <- na.omit(retail_data)
 
 ggparcoord(
